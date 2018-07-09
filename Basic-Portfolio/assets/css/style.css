@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+  }
+  
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#dddddd;
+}
+#head1 {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 20px 25px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+}
+#head2 {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+}
+nav {
+    float: right;
+    padding: 20px;
+}
+#top-Content {
+    width: 960px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    padding: 20px 10px;
+    color: #777777;
+}
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    margin: 15px auto;
+}
+
+#main-content{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #dddddd;
+    background-color: #666666;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-top: 3px solid #4aaaa5;
+}
+
+#profile {
+    float: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px;
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.box-set {
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  height: 400px;
+}
+
+.box {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+
+.box-1 {
+  top: 4%;
+  left: 3%;
+}
+
+.box-2 {
+  top: 18px;
+  right: 558px;
+}
+
+.box-3 {
+  right: 557px;
+  bottom: 63px;
+}
+
+.box-4 {
+  bottom: 63px;
+  left: 24px;
+}
+
+.box-5 {
+  bottom: -103px;
+  left: 24px;
+}
+
+
