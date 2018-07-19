@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Number Checker</title>
+    <title>Gamachis/Portfolio</title>
     <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Latest compiled and minified CSS (Bootstrap) -->
@@ -16,48 +16,49 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="assets/javascript/app.js"></script>
 </head>
 
 <body>
-
     <div class="jumbotron">
-        <div style="text-align:center">
-            <button onclick="playPause()">Play/Pause</button>
-            <button onclick="makeBig()">Big</button>
-            <button onclick="makeSmall()">Small</button>
-            <button onclick="makeNormal()">Normal</button>
-            <br>
-            <br>
-            <video id="video1" width="420">
-                <source src="assets/video/gamme-video.mp4" type="video/mp4">
-            </video>
+        <div class="row">
+            <div class="col-md-1">
+                <!-- As a heading -->
+                <img src="assets/images/bio-image.jpg" class="bioImage" alt="bio Header Image" />
+            </div>
+            <div class="col-md-11">
+                <img src="assets/images/banner-982162__340.jpg" class="mySlides" alt="banner">
+            </div>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-12" id="box2">
             <div class="card mb-2">
                 <h3 class="card-header text-center">My Portfolio</h3>
-                <div class="card-body text-center" id="boxResult">
+                <!-- <div class="card-body text-center" id="boxResult">
                     <h1 id="timeBox"></h1>
-                </div>
+                </div> -->
+            </div>
+            <div class="sidenav">
+                <a href="index.html">About</a>
+                <a href="#projects">Projects</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
     </div>
+
     <!-- <div class="container"> -->
-    <div class="row">
-        <div class="col-md-2" id="box2">
+    <div class="row" id="headProject">
+        <div class="col-md-1">
             <div class="card mb-2">
-                <h5 class="card-header text-center">boxMenu</h5>
+                <h5 class="card-header text-center">Contact</h5>
                 <div class="card-body text-left" id="boxMenu">
-                    <h2>
-                        <div class="sidenav">
-                            <a href="index.html">About</a>
-                            <a href="#projects">Projects</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-                        <div class="icon-bar">
+                    <div class="icon-bar" id="socialBox">
+                        <h2>
+                            <a href="#" class="github">
+                                <i class="fa fa-github"></i>
+                            </a>
                             <a href="#" class="facebook">
                                 <i class="fa fa-facebook"></i>
                             </a>
@@ -73,12 +74,12 @@
                             <a href="#" class="youtube">
                                 <i class="fa fa-youtube"></i>
                             </a>
-                        </div>
-                    </h2>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4" id="box3">
+        <div class="col-md-7" id="box2">
             <div class="card mb-2">
                 <h5 class="card-header text-center">About Me</h5>
                 <div class="card-body text-left" id="boxAbout">
@@ -97,16 +98,89 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 " id="box4">
-            <div class="card mb-2">
-                <h5 class="card-header text-center">Projects</h5>
-                <div class="card-body text-center" id="boxProjects">
 
+        <div class="col-md-4" id="box3">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">Sample Video</h5>
+                <div style="text-align:center">
+                    <button onclick="playPause()">Play/Pause</button>
+                    <button onclick="makeBig()">Big</button>
+                    <button onclick="makeSmall()">Small</button>
+                    <button onclick="makeNormal()">Normal</button>
+                    <br>
+                    <video id="video1" width="420">
+                        <source src="assets/video/gamme-video.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
     </div>
-    <!-- </div> -->
+    <div class="row" id="headProject">
+        <div class="col-md-12">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">Projects</h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4" id="project1">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">JavaScript Assignment: Word Guess Game</h5>
+                <a target="_blank" href="https://gyadesa.github.io/wordGuessGame/index.html">
+                    <img src="assets/images/hangMan-project.jpg" alt="Hangman" style="width:90%">
+                </a>
+                <p>This project</p>
+                <a href="#" class="previous">&laquo; Previous</a>
+                <a href="#" class="next">Next &raquo;</a>
+            </div>
+        </div>
+        <div class="col-md-4" id="project2">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">jQuery Assignment: Crystals Collector Game</h5>
+                <a target="_blank" href="https://gyadesa.github.io/unit-4-game/index.html">
+                    <img src="assets/images/crystalsCollectorGame-Project.jpg" alt="CrystalsCollector" style="width:90%">
+                </a>
+                <p>This project</p>
+            </div>
+        </div>
+        <div class="col-md-4" id="project3">
+            <h5 class="card-header text-center">JavaScript Assignment: Trivia Game</h5>
+            <a target="_blank" href="https://gyadesa.github.io/TriviaGame">
+                <img src="assets/images/TriviaGame-project.jpg" alt="TriviaGame" style="width:90%">
+            </a>
+            <p>This project</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4" id="project4">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">ajax: Giphy API</h5>
+                <a target="_blank" href="https://gyadesa.github.io/giftastic/giftastic.html">
+                    <img src="assets/images/giftastic-project.jpg" alt="Giphy API" style="width:90%">
+                </a>  <br>
+                <h5> A full stack GIPHY API that calls JavaScript and jQuery to make a dynamic
+                    web page that populates with gifs of the top 10 soccer players of the world.</h5>
+            </div>
+        </div>
+        <div class="col-md-4" id="project5">
+            <div class="card mb-2">
+                <h5 class="card-header text-center">Firebase: Global Sounds</h5>
+                <a target="_blank" href="globalSounds-project.jpg">
+                    <img src="assets/images/globalSounds-project.jpg" alt="Global Sounds" style="width:90%">
+                </a>
+                <p>This project</p>
+            </div>
+        </div>
+        <div class="col-md-4" id="project6">
+            <h5 class="card-header text-center">Title3</h5>
+            <a target="_blank" href="TriviaGame-project.jpg">
+                <img src="assets/images/crystalsCollectorGame-Project.jpg" alt="Trivia Game" style="width:90%">
+            </a>
+            <p>This project</p>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-md-12" id="box5">
             <div class="card mb-2">
@@ -120,28 +194,7 @@
         </div>
     </div>
 
-    <script> 
-        var myVideo = document.getElementById("video1");
-
-        function playPause() {
-            if (myVideo.paused)
-                myVideo.play();
-            else
-                myVideo.pause();
-        }
-
-        function makeBig() {
-            myVideo.width = 560;
-        }
-
-        function makeSmall() {
-            myVideo.width = 320;
-        }
-
-        function makeNormal() {
-            myVideo.width = 420;
-        } 
-    </script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

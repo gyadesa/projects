@@ -1,5 +1,26 @@
-// Ready to display on html side
-$(document).ready(function () {
+ // Ready to display on html side
+ var myVideo = document.getElementById("video1");
+
+ function playPause() {
+     if (myVideo.paused)
+         myVideo.play();
+     else
+         myVideo.pause();
+ }
+
+ function makeBig() {
+     myVideo.width = 560;
+ }
+
+ function makeSmall() {
+     myVideo.width = 320;
+ }
+
+ function makeNormal() {
+     myVideo.width = 420;
+ } 
+/*
+ $(document).ready(function () {
     // Define variables
     var clockTime = 25;
     var count = 0;
@@ -243,4 +264,4 @@ $(document).ready(function () {
     $(".btn-primary").on("click", function () {
         startGame();
     });
-})
+}) */

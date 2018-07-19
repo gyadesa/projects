@@ -3,96 +3,102 @@
     box-sizing: border-box;
   }
   .jumbotron {
-    background-color: rgb(145, 145, 123);
-    color: blue;
-    background: url("assets/images/images.jpg");
-    height: 300px;
+    background-color: #3B5998;
+
   }
   body {
-      background-image: url("../images/starsSky.jpg");
       width: 100%;
+      background-color: #9da6aa;
+      margin: 10px 5px 10px 5px;
   }
   #boxbtnStart {
-    height: 50px;
-    background-color:blue;
+    height: 0px;
+    background-color:#007bb5;
   }
-  img {
-    width: 320px;
-    height: 280px;
+  .col-md-2 {
+    display: block;
+    margin: 0 auto;
   }
+  .col-md-10{
+    display: block;
+    margin: 0 auto;
+  }
+  /* img {
+    width: 150px;
+    height: 150px;
+  } */
+  .bioImage {
+    border-radius: 50%;
+    float: left;
+    width: 10%10%;
+    height: 120px;
+    margin: 5px;
+    padding: 5px 0px 10px 0px;
+  }
+  .mySlides {
+    top: 100%;
+    float: left;
+    width: 100%;
+    height: 160px;
+    margin: 0px;
+    
+   }
   #boxMenu {
     float: left;
     font-size: 14px;
     padding: 0px;
-    height: 400px;
-    background-color:whitesmoke;
+    height: 265px;
+    background-color:#9da1a3;
   }
   #boxAbout {
     font-size: 14px;
     padding: 10px;
-    height: 400px;
-    background-color:whitesmoke;
+    height: 265px;
+    background-color:#9da1a3;
   }
   #boxProjects {
     float: left;
     padding: 10px;
-    height: 400px;
+    height: 500px;
     text-align: center;
-    background-color:whitesmoke;
+    background-color:#9da1a3;
     width: 100%;
   }
  .btn start {
    text-align: center;
    padding: 0px 0px;
  } 
- #box1 {
-   width: 100%;
-   height: 280px;
- }
- #box2 {
-  width: 100%;
-}
-#box3 {
-  width: 100%;
-}
-#box4 {
-  width: 100%;
-}
-#box5 {
-  width: 100%;
-}
+ 
 /* ------ Menu--------*/ 
 .sidenav {
-  width: 150px;
-  /* position: fixed; */
-  z-index: 1;
-  top: 100px;
-  left: 0px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-  margin: 10px;
+  display: flex;
+  background-color: #333;
+  padding: 10px;
+  margin: 0px;
 }
 
 .sidenav a {
-  padding: 0px 8px 16px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #2196F3;
-  display: block;
-  margin: 15px;
+  color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .sidenav a:hover {
   color: #064579;
 }
+
+/*----------------------------*/
+#headProject {
+  padding: 10px;
+}
+
+.row {
+  padding: 0px 5px 0px 10px;
+}
 /*----------Social Media----- */
 .icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  pad: 0px;
 }
 .icon-bar a {
   display: block;
@@ -104,6 +110,11 @@
 }
 .icon-bar a:hover {
   background-color: #000;
+}
+
+.github {
+  background: #007bb5;
+  color: black;
 }
 
 .facebook {
@@ -132,7 +143,21 @@ color: white;
 }
 
 .content {
-margin-left: 75px;
+margin-left: 0px;
 font-size: 30px;
 }
-  
+
+/*------Slide Show--------*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
