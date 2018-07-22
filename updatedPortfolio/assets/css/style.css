@@ -8,21 +8,25 @@
   }
   body {
       width: 100%;
-      background-color: #9da6aa;
-      margin: 10px 5px 10px 5px;
+      background-color: #3B5998;
   }
+  /* h5 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 0px;
+    height: 40px;
+    text-align: center;
+  } */
   #boxbtnStart {
     height: 0px;
     background-color:#007bb5;
   }
-  .col-md-2 {
-    display: block;
-    margin: 0 auto;
+  /* # project3 {
+    background-color: aliceblue;
   }
   .col-md-10{
     display: block;
     margin: 0 auto;
-  }
+  } */
   /* img {
     width: 150px;
     height: 150px;
@@ -50,20 +54,20 @@
     height: 265px;
     background-color:#9da1a3;
   }
-  #boxAbout {
+    #boxAbout {
     font-size: 14px;
     padding: 10px;
     height: 265px;
     background-color:#9da1a3;
   }
-  #boxProjects {
+  /* #boxProjects {
     float: left;
     padding: 10px;
     height: 500px;
     text-align: center;
     background-color:#9da1a3;
     width: 100%;
-  }
+  } */
  .btn start {
    text-align: center;
    padding: 0px 0px;
@@ -90,11 +94,11 @@
 
 /*----------------------------*/
 #headProject {
-  padding: 10px;
+  padding: 5px;
 }
 
 .row {
-  padding: 0px 5px 0px 10px;
+  padding: 0px 5px 10px 10px;
 }
 /*----------Social Media----- */
 .icon-bar {
@@ -113,7 +117,7 @@
 }
 
 .github {
-  background: #007bb5;
+  background: #3e5058;
   color: black;
 }
 
