@@ -1,4 +1,7 @@
 /* general */
+.ghost {
+  visibility: hidden;
+}
 * {
     box-sizing: border-box;
   }
