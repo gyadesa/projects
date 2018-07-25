@@ -7,7 +7,8 @@
   }
   .jumbotron {
     background-color: #3B5998;
-
+    height: 160px;
+    padding: 8px 0px 0px 0px;
   }
   body {
       width: 100%;
@@ -37,8 +38,8 @@
   .bioImage {
     border-radius: 50%;
     float: left;
-    width: 10%10%;
-    height: 120px;
+    width: 10% 10%;
+    height: 100px;
     margin: 5px;
     padding: 5px 0px 10px 0px;
   }
@@ -46,15 +47,14 @@
     top: 100%;
     float: left;
     width: 100%;
-    height: 160px;
+    height: 140px;
     margin: 0px;
-    
    }
   #boxMenu {
     float: left;
     font-size: 14px;
     padding: 0px;
-    height: 265px;
+    height: 200px;
     background-color:#9da1a3;
   }
     #boxAbout {
@@ -63,14 +63,12 @@
     height: 265px;
     background-color:#9da1a3;
   }
-  /* #boxProjects {
-    float: left;
+   #myProjects {
     padding: 10px;
-    height: 500px;
-    text-align: center;
-    background-color:#9da1a3;
-    width: 100%;
-  } */
+    height: 300px;
+    text-align: left;
+    width: 90%;
+  } 
  .btn start {
    text-align: center;
    padding: 0px 0px;
@@ -93,6 +91,10 @@
 
 .sidenav a:hover {
   color: #064579;
+}
+
+#box2 {
+  padding: 2px;
 }
 
 /*----------------------------*/
